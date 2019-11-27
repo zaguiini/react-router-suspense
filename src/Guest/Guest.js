@@ -1,5 +1,6 @@
 import React from 'react'
 import { Switch, Route, Link } from 'react-router-dom'
+import NotFound from '../NotFound'
 
 const Login = React.lazy(() => import('./Login'))
 const Register = React.lazy(() => import('./Register'))
@@ -22,6 +23,7 @@ const Guest = () => (
         <Switch>
           <Route path="/" exact component={Login} />
           <Route path="/register" exact component={Register} />
+          <Route path="*" component={NotFound} />
         </Switch>
       </React.Suspense>
     </main>

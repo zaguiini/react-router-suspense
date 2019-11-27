@@ -1,17 +1,14 @@
 {
-  "name": "new",
+  "name": "react-router-suspense",
   "version": "1.0.0",
   "description": "",
   "keywords": [],
   "main": "src/index.js",
   "dependencies": {
-    "react": "16.8.6",
-    "react-dom": "16.8.6",
+    "react": "16.12.0",
+    "react-dom": "16.12.0",
     "react-router-dom": "5.1.2",
-    "react-scripts": "3.0.1"
-  },
-  "devDependencies": {
-    "typescript": "3.3.3"
+    "react-scripts": "3.2.0"
   },
   "scripts": {
     "start": "react-scripts start",
